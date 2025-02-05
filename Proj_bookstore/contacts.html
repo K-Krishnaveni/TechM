@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bookstore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background:linear-gradient(to right,rgba(216, 205, 194, 0.901),rgb(93, 47, 1));
+            overflow: hidden;}
+        .container {
+            width: 40%;
+            margin: 50px auto;
+            background:linear-gradient(to left,silver rgb(228, 167, 61));
+            box-shadow:0 8px 16px black;
+            padding: 20px;
+            border-radius: 10px;
+            padding-top: 60px;
+        }
+        h2 {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size:30px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 70%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: antiquewhite;
+            text-align: center;
+        }
+        button {
+            width: 50%;
+            padding: 20px;
+            background: #31280c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-left: 15%;
+            margin-top: 20px;
+        }
+        button:hover {
+            background: #5e3617;
+        }
+        .info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        form{
+            padding-left: 110px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="info">
+            <p><strong>Email:</strong> contact@bookstore.com</p>
+            <p><strong>Phone:</strong> +91 9876543210</p>
+            <p><strong>Address:</strong> 123 Book Street, Fiction City, USA</p>
+        </div>
+    </div>
+</body>
+</html>
