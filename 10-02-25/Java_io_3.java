@@ -3,31 +3,32 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 public class Java_io_3 {
-    static void inputBufferMethod() throws IOException
-    {
-        // Enter data using BufferReader
+    static void bufferMethod() throws IOException {
         BufferedReader r = new BufferedReader(
                 new InputStreamReader(System.in));
         System.out.println("Enter the input:");
-        // Reading data using readLine
         String s = r.readLine();
-
-        // Printing the read line
-        System.out.println("The given input:"+s);
+        System.out.println("The given input:" + s);
     }
-    static void inputScannerMethod()
-    {
-        // Using Scanner for Getting Input from User
+
+     void iScannerMethod() {
+
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the input string :");
-        String s1 = s.nextLine();
-        System.out.println("You entered string " + s1);
+        String word = s.nextLine();
+        System.out.println("You entered string " + word);
 
         System.out.println("Enter the input integer :");
-        int a = s.nextInt();
-        System.out.println("You entered integer " + a);
+        int number = s.nextInt();
+        System.out.println("You entered integer " + number);
 
         System.out.println("Enter the input float :");
-        float b = s.nextFloat();
-        System.out.println("You entered float " + b);
+        float decimal = s.nextFloat();
+        System.out.println("You entered float " + decimal);
     }
+    public static void main(String args[]) throws IOException{
+        bufferMethod();
+        Java_io_3 ref=new Java_io_3();
+        ref.iScannerMethod();
+    }
+}
