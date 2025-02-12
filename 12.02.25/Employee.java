@@ -2,7 +2,7 @@ import java.io.*;
 class EmployeeDetail implements Serializable {
     int eno;
     String ename;
-    String email;
+    transient String email;
 
      EmployeeDetail(int eno, String ename, String email) {
         this.eno = eno;
