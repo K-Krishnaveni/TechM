@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {//Thread 1
+    public static void main(String[] args) {
         System.out.println("From Main thread!");
         System.out.println("From Main thread!");
         System.out.println("From Main thread!");
