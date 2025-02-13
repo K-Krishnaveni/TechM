@@ -1,4 +1,7 @@
-import java.io.*;
+import java.io.Serializable;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.io.IOException;
 class Student implements Serializable {
     int rno;
     String name;
