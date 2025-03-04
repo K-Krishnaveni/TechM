@@ -1,0 +1,28 @@
+[
+    {
+      "name": "Dr. Emily Watson",
+      "image": "images/speaker1.jpg",
+      "role": "AI Researcher, Google",
+      "topic": "The Rise of Ethical AI"
+    },
+    {
+      "name": "Michael Johnson",
+      "image": "images/speaker2.jpg",
+      "role": "Cybersecurity Expert, Microsoft",
+      "topic": "Defending Digital Frontiers"
+    },
+    {
+      "name": "Sophia Lee",
+      "image": "images/speaker3.jpg",
+      "role": "Blockchain Developer, IBM",
+      "topic": "Decentralized Future with Blockchain"
+    },
+    {
+      "name": "David Brown",
+      "image": "images/speaker4.jpg",
+      "role": "Cloud Architect, AWS",
+      "topic": "Cloud Computing in Digital Transformation"
+    },
+   
+  ]
+  
