@@ -1,0 +1,21 @@
+<div class="container">
+    <h2 class="text-center my-3">Movie Genres</h2>
+
+    <input type="text" class="form-control mb-3" [(ngModel)]="searchText" placeholder="Search by movie name">
+
+    <select class="form-control mb-3" [(ngModel)]="selectedGenre">
+        <option value="">select Genre</option>
+        <option *ngFor="let genre of genres" [value]="genre">{{ genre }}</option>
+    </select>
+    <div class="row">
+        <div *ngFor="let movie of (movies | movieFilter: searchText) | filterByGenre:selectedGenre" class="col-md-4">
+            <div class="card mb-3">
+                <img src="http://localhost:8090/{{movie.poster}}" class="card-img-top" alt={{movie.title}}>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie.title }}</h5>
+                    <p class="card-text">{{ movie.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

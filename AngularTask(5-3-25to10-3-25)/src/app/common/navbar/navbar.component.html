@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="d-flex align-items-center">
+        <span *ngIf="loggedInUser" class="text-light me-3">
+          Welcome, {{ loggedInUser }}
+        </span>
+  
+        <button *ngIf="!loggedInUser" class="btn btn-outline-light me-2"
+          routerLink="/login">
+          Login
+        </button>
+  
+        <button *ngIf="loggedInUser" class="btn btn-danger" (click)="logout()">
+          Logout
+        </button>
+      </div>
+  </nav>
+  

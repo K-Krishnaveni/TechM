@@ -1,0 +1,50 @@
+<div class="container">
+    <h2 class="text-center">Submit a Movie Review</h2>
+  
+    <form [formGroup]="reviewForm" (ngSubmit)="submitReview()" novalidate>
+      <div class="form-group">
+        <label>Movie Title</label>
+        <input type="text" class="form-control" formControlName="movieTitle">
+        <div *ngIf="reviewForm.get('movieTitle')?.invalid && reviewForm.get('movieTitle')?.touched" class="error">
+          Movie title is required.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label>Your Name</label>
+        <input type="text" class="form-control" formControlName="reviewerName">
+        <div *ngIf="reviewForm.get('reviewerName')?.invalid && reviewForm.get('reviewerName')?.touched" class="error">
+          Name is required.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label>Rating (1-5)</label>
+        <input type="number" class="form-control" formControlName="rating" min="1" max="5">
+        <div *ngIf="reviewForm.get('rating')?.invalid && reviewForm.get('rating')?.touched" class="error">
+          Enter a rating between 1 and 5.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label>Review</label>
+        <textarea class="form-control" formControlName="comment"></textarea>
+        <div *ngIf="reviewForm.get('comment')?.invalid && reviewForm.get('comment')?.touched" class="error">
+          Comment is required.
+        </div>
+      </div>
+  
+      <button type="submit" class="btn btn-warning" [disabled]="reviewForm.invalid">Submit Review</button>
+    </form>
+  
+    <div *ngIf="submitted" class="alert alert-success mt-3">Review submitted successfully!</div>
+  
+    <h3 class="text-center mt-5">User Reviews</h3>
+    <ul class="list-group">
+      <li *ngFor="let review of reviews" class="list-group-item">
+        <strong>{{ review.movieTitle }} ({{ review.rating }}/5)</strong> - {{ review.reviewerName }}
+        <p>{{ review.comment }}</p>
+      </li>
+    </ul>
+  </div>
+  

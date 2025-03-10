@@ -1,0 +1,6 @@
+<div class="movie-list">
+    <app-movie-item *ngFor="let movie of movies" [movie]="movie"></app-movie-item>
+  </div>
+  <div *ngFor="let movie of movies | movieFilter: searchText">
+  </div>
+  

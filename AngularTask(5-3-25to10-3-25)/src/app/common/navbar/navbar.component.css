@@ -1,0 +1,16 @@
+span{
+    font-family: cursive;
+    font-size: 30px;
+    color:rgb(29, 5, 101);
+    text-shadow: #cde4ed 2px 1px 1px;
+}
+button{
+    width:100px;
+    height:40px;
+    margin-top:30px;
+    color:white;
+    background-color: rgb(26, 26, 73);
+    border-radius: 5px;
+    box-shadow: white 2px,2px,2px;
+    position: relative;
+}

@@ -1,0 +1,211 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "year": 2010,
+      "poster": "inception.jpeg",
+      "rating": 8.8
+    },
+    {
+      "id": 2,
+      "title": "Interstellar",
+      "year": 2014,
+      "poster": "interstellar.jpg",
+      "rating": 8.6
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "poster": "The Dark Knight.jpeg",
+      "rating": 9
+    },
+    {
+      "id": 4,
+      "title": "Fight Club",
+      "year": 1999,
+      "poster": "Fight Club.jpeg",
+      "rating": 8.8
+    },
+    {
+      "id": 5,
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "poster": "The Shawshank Redemption.jpeg",
+      "rating": 9.3
+    },
+    {
+      "id": 6,
+      "title": "The Godfather",
+      "year": 1972,
+      "poster": "The Godfather.jpeg",
+      "rating": 9.2
+    },
+    {
+      "id": 7,
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "poster": "Pulp Fiction.jpeg",
+      "rating": 8.9
+    },
+    {
+      "id": 8,
+      "title": "Forrest Gump",
+      "year": 1994,
+      "poster": "Forrest Gump.jpeg",
+      "rating": 8.8
+    },
+    {
+      "id": 9,
+      "title": "The Matrix",
+      "year": 1999,
+      "poster": "The Matrix.jpeg",
+      "rating": 8.7
+    },
+    {
+      "id": 10,
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "poster": "The Lord.jpeg",
+      "rating": 9
+    },
+    {
+      "id": 11,
+      "title": "The Lion King",
+      "year": 1994,
+      "poster": "lion.jpeg",
+      "rating": 8.5
+    },
+    {
+      "id": 12,
+      "title": "Aladdin",
+      "year": 1992,
+      "poster": "Aladdin.jpeg",
+      "rating": 8
+    },
+    {
+      "id": 13,
+      "title": "Toy Story",
+      "year": 1995,
+      "poster": "Toy Story.jpeg",
+      "rating": 8.3
+    },
+    {
+      "id": 14,
+      "title": "Finding Nemo",
+      "year": 2003,
+      "poster": "Finding Nemo.jpeg",
+      "rating": 8.2
+    },
+    {
+      "id": 15,
+      "title": "The Conjuring",
+      "year": 2013,
+      "poster": "The Conjuring.jpeg",
+      "rating": 7.5
+    },
+    {
+      "id": 16,
+      "title": "It",
+      "year": 2017,
+      "poster": "It.jpeg",
+      "rating": 7.3
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "title": "The Lion King",
+      "genre": "Disney",
+      "description": "A young lion prince flees his kingdom only to learn the true meaning of responsibility.",
+      "poster": "lion.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Aladdin",
+      "genre": "Disney",
+      "description": "A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp.",
+      "poster": "Aladdin.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Toy Story",
+      "genre": "Pixar",
+      "description": "A cowboy doll is profoundly threatened when a new spaceman figure replaces him as top toy.",
+      "poster": "Toy Story.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Finding Nemo",
+      "genre": "Pixar",
+      "description": "After his son is captured, a timid clownfish sets out on a journey to bring him home.",
+      "poster": "Finding Nemo.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "The Conjuring",
+      "genre": "Horror",
+      "description": "Paranormal investigators work to help a family terrorized by a dark presence.",
+      "poster": "The Conjuring.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "It",
+      "genre": "Horror",
+      "description": "A group of bullied kids band together to destroy a shape-shifting monster.",
+      "poster": "It.jpeg"
+    },
+    {
+      "id": 7,
+      "title": "The Godfather",
+      "genre": "Crime",
+      "description": "The aging patriarch of an organized crime dynasty transfers control to his son.",
+      "poster": "The Godfather.jpeg"
+    },
+    {
+      "id": 8,
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "description": "The lives of two hitmen, a boxer, and a gangster's wife intertwine in a crime story.",
+      "poster": "Pulp Fiction.jpeg"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "37a7",
+      "movieTitle": "aladdin",
+      "reviewerName": "krish",
+      "rating": 4.6,
+      "comment": "Feel good  movie with more fictional elements"
+    },
+    {
+      "id": "6af9",
+      "movieTitle": "Lion king",
+      "reviewerName": "veni",
+      "rating": 4.7,
+      "comment": "Fantastic movie ,worth the watch"
+    },
+    {
+      "id": "28c8",
+      "movieTitle": "IT",
+      "reviewerName": "Krishna",
+      "rating": 4.8,
+      "comment": "Interesting movie."
+    },
+    {
+      "id": "1b0f",
+      "movieTitle": "conjuring",
+      "reviewerName": "krish",
+      "rating": 4.5,
+      "comment": "terrific movie"
+    },
+    {
+      "id": "14c2",
+      "movieTitle": "LionKing",
+      "reviewerName": "krishnaveni",
+      "rating": 4.8,
+      "comment": "feel good movie"
+    }
+  ]
+}
